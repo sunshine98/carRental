@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/carrent?rewriteBatchedStatements=true&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    type: com.zaxxer.hikari.HikariDataSource
+  application:
+    name: carRental
+server:
+  port: 8888
+swagger:
+  title: CarRental API DOC
+
